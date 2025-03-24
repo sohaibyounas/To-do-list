@@ -122,3 +122,32 @@ ul li span:hover{
     background-color: #edeef0;
 }
  
+
+/* media query 426px*/
+@media screen and (max-width: 426px) {
+    .row{
+        padding-left: 20px;
+    }
+
+    button{
+        width: 28% !important;
+    }
+}
+
+/* media query 376px*/
+@media screen and (max-width: 376px) {
+    .row{
+        padding-left: 0px;
+    }
+
+    button{
+        width: 33% !important;
+    }
+}
+
+/* media query 320px*/
+@media screen and (max-width: 320px) {
+    button{
+        width: 37% !important;
+    }
+}
