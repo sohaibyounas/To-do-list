@@ -31,6 +31,15 @@ listContainer.addEventListener("click", function(e) {
 }, false);
 
 
+// click to add task by press Enter Button
+inputBox.addEventListener("keypress", function(e) {
+    if(e.key === "Enter") {
+        addTask();
+        storeTasks();
+    }
+});
+
+
 // Store Tasks
 function storeTasks() {
     localStorage.setItem("data", listContainer.innerHTML);
