@@ -69,6 +69,11 @@ button{
     border-radius: 40px;
     width: 25% !important;
 }
+
+ul {
+    padding-left: 0rem;
+}
+
 ul li{
     list-style: none;
     font-size: 17px;
